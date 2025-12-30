@@ -1,0 +1,36 @@
+/* Custom styles for the dark aesthetic */
+body {
+    font-family: 'Inter', sans-serif; /* Body font */
+    /* Dark background color */
+    background-color: #0d1117; 
+}
+.unique-heading {
+    font-family: 'Poppins', sans-serif; /* Distinct font for headings */
+}
+.section {
+    padding-top: 5rem; /* Space below fixed header */
+    padding-bottom: 5rem;
+    min-height: 100vh;
+}
+.nav-link {
+    transition: color 0.2s, background-color 0.2s;
+    border-radius: 0.5rem;
+}
+/* Style for anchor links when sections are in view and on hover */
+.nav-link:hover, .nav-link.active {
+    color: #818cf8; /* Lighter indigo for contrast */
+    background-color: rgba(99, 102, 241, 0.2);
+}
+.input-style {
+    /* Dark mode input style */
+    background-color: #1f2937; /* Gray-800 */
+    border: 1px solid #374151; /* Gray-700 */
+    color: #e5e7eb; /* Light text */
+    border-radius: 0.5rem;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+.input-style:focus {
+    border-color: #6366f1; /* Indigo-500 */
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.5);
+}
